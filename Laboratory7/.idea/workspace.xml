@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70a00872-f81c-42af-9096-df3bcfa67e4e" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1SVMN6OR8vGGSdncBQmGPqIk1k1" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Laboratory6" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Model.Value" />
+      <recent name="Model.adt" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MyGUI">
+    <configuration name="Interpreter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="View.Interpreter" />
+      <module name="Laboratory3" />
+      <option name="VM_PARAMETERS" value="--module-path $USER_HOME$/Desktop/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="View.MyGUI" />
+      <module name="Laboratory3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="Laboratory3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="View.View" />
+      <module name="Laboratory3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="View.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.View" />
+      <item itemvalue="Application.Interpreter" />
+      <item itemvalue="Application.MyGUI" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MyGUI" />
+        <item itemvalue="Application.Interpreter" />
+        <item itemvalue="Application.View" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70a00872-f81c-42af-9096-df3bcfa67e4e" name="Default Changelist" comment="" />
+      <created>1571644266919</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571644266919</updated>
+      <workItem from="1572249999182" duration="3315000" />
+      <workItem from="1572617120639" duration="7195000" />
+      <workItem from="1572854639475" duration="5856000" />
+      <workItem from="1573285401571" duration="5638000" />
+      <workItem from="1573406789046" duration="1617000" />
+      <workItem from="1573459032204" duration="5649000" />
+      <workItem from="1573762556007" duration="583000" />
+      <workItem from="1573845442806" duration="2356000" />
+      <workItem from="1573986943028" duration="10689000" />
+      <workItem from="1574060883749" duration="8259000" />
+      <workItem from="1574171122013" duration="626000" />
+      <workItem from="1574365987616" duration="986000" />
+      <workItem from="1574599927768" duration="16314000" />
+      <workItem from="1574667081088" duration="3862000" />
+      <workItem from="1574679606777" duration="538000" />
+      <workItem from="1574971542611" duration="519000" />
+      <workItem from="1575274339985" duration="5050000" />
+      <workItem from="1575320883612" duration="368000" />
+      <workItem from="1575717710916" duration="10401000" />
+      <workItem from="1575879064057" duration="3794000" />
+      <workItem from="1576484336101" duration="3766000" />
+      <workItem from="1578058821577" duration="2522000" />
+      <workItem from="1578152814423" duration="271000" />
+      <workItem from="1578206709604" duration="510000" />
+      <workItem from="1578207858165" duration="497000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="((java.util.Stack)((MyStack)stk).stack).get(1)" custom="Model.adt.MyStack,java.util.Stack" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,101 @@
+ID: 13
+ExeStack:
+bool a
+(int v;((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 13
+ExeStack:
+(int v;((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))))
+SymTable:
+a --> (false)
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 13
+ExeStack:
+int v
+((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v)))
+SymTable:
+a --> (false)
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 13
+ExeStack:
+((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v)))
+SymTable:
+a --> (false)
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 13
+ExeStack:
+(a=( (true) ))
+(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))
+SymTable:
+a --> (false)
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 13
+ExeStack:
+(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))
+SymTable:
+a --> (true)
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 13
+ExeStack:
+IF(a) THEN((v=( 2 )))ELSE((v=( 3 )))
+print(v)
+SymTable:
+a --> (true)
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 13
+ExeStack:
+(v=( 2 ))
+print(v)
+SymTable:
+a --> (true)
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 13
+ExeStack:
+print(v)
+SymTable:
+a --> (true)
+v --> 2
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 13
+ExeStack:
+SymTable:
+a --> (true)
+v --> 2
+Out:
+2
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .

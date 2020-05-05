@@ -1,0 +1,470 @@
+ID: 38
+ExeStack:
+Ref(int) v
+(new(v,( 20 ));(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 ))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 38
+ExeStack:
+(new(v,( 20 ));(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 ))))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 38
+ExeStack:
+new(v,( 20 ))
+(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 )))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 38
+ExeStack:
+(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 )))))
+SymTable:
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 38
+ExeStack:
+print(rH(v))
+(wH(v,( 30 ));print((rH(v) + ( 5 ))))
+SymTable:
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 38
+ExeStack:
+(wH(v,( 30 ));print((rH(v) + ( 5 ))))
+SymTable:
+v --> 1 int
+Out:
+20
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 38
+ExeStack:
+wH(v,( 30 ))
+print((rH(v) + ( 5 )))
+SymTable:
+v --> 1 int
+Out:
+20
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 38
+ExeStack:
+print((rH(v) + ( 5 )))
+SymTable:
+v --> 1 int
+Out:
+20
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 38
+ExeStack:
+SymTable:
+v --> 1 int
+Out:
+20
+35
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 53
+ExeStack:
+Ref(int) v
+(new(v,( 20 ));(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 ))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 53
+ExeStack:
+(new(v,( 20 ));(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 ))))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 53
+ExeStack:
+new(v,( 20 ))
+(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 )))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 53
+ExeStack:
+(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 )))))
+SymTable:
+v --> 62 int
+Out:
+FileTable
+Heap
+62
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 53
+ExeStack:
+print(rH(v))
+(wH(v,( 30 ));print((rH(v) + ( 5 ))))
+SymTable:
+v --> 62 int
+Out:
+FileTable
+Heap
+62
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 53
+ExeStack:
+(wH(v,( 30 ));print((rH(v) + ( 5 ))))
+SymTable:
+v --> 62 int
+Out:
+20
+FileTable
+Heap
+62
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 53
+ExeStack:
+wH(v,( 30 ))
+print((rH(v) + ( 5 )))
+SymTable:
+v --> 62 int
+Out:
+20
+FileTable
+Heap
+62
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 53
+ExeStack:
+print((rH(v) + ( 5 )))
+SymTable:
+v --> 62 int
+Out:
+20
+FileTable
+Heap
+62
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 53
+ExeStack:
+SymTable:
+v --> 62 int
+Out:
+20
+35
+FileTable
+Heap
+62
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 143
+ExeStack:
+Ref(int) v
+(new(v,( 20 ));(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 ))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 143
+ExeStack:
+(new(v,( 20 ));(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 ))))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 143
+ExeStack:
+new(v,( 20 ))
+(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 )))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 143
+ExeStack:
+(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 )))))
+SymTable:
+v --> 170 int
+Out:
+FileTable
+Heap
+170
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 143
+ExeStack:
+print(rH(v))
+(wH(v,( 30 ));print((rH(v) + ( 5 ))))
+SymTable:
+v --> 170 int
+Out:
+FileTable
+Heap
+170
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 143
+ExeStack:
+(wH(v,( 30 ));print((rH(v) + ( 5 ))))
+SymTable:
+v --> 170 int
+Out:
+20
+FileTable
+Heap
+170
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 143
+ExeStack:
+wH(v,( 30 ))
+print((rH(v) + ( 5 )))
+SymTable:
+v --> 170 int
+Out:
+20
+FileTable
+Heap
+170
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 143
+ExeStack:
+print((rH(v) + ( 5 )))
+SymTable:
+v --> 170 int
+Out:
+20
+FileTable
+Heap
+170
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 143
+ExeStack:
+SymTable:
+v --> 170 int
+Out:
+20
+35
+FileTable
+Heap
+170
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 17
+ExeStack:
+Ref(int) v
+(new(v,( 20 ));(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 ))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 17
+ExeStack:
+(new(v,( 20 ));(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 ))))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 17
+ExeStack:
+new(v,( 20 ))
+(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 )))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 17
+ExeStack:
+(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 )))))
+SymTable:
+v --> 19 int
+Out:
+FileTable
+Heap
+19
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 17
+ExeStack:
+print(rH(v))
+(wH(v,( 30 ));print((rH(v) + ( 5 ))))
+SymTable:
+v --> 19 int
+Out:
+FileTable
+Heap
+19
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 17
+ExeStack:
+(wH(v,( 30 ));print((rH(v) + ( 5 ))))
+SymTable:
+v --> 19 int
+Out:
+20
+FileTable
+Heap
+19
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 17
+ExeStack:
+wH(v,( 30 ))
+print((rH(v) + ( 5 )))
+SymTable:
+v --> 19 int
+Out:
+20
+FileTable
+Heap
+19
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 17
+ExeStack:
+print((rH(v) + ( 5 )))
+SymTable:
+v --> 19 int
+Out:
+20
+FileTable
+Heap
+19
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 17
+ExeStack:
+SymTable:
+v --> 19 int
+Out:
+20
+35
+FileTable
+Heap
+19
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 39
+ExeStack:
+Ref(int) v
+(new(v,( 20 ));(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 ))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 39
+ExeStack:
+(new(v,( 20 ));(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 ))))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 39
+ExeStack:
+new(v,( 20 ))
+(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 )))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 39
+ExeStack:
+(print(rH(v));(wH(v,( 30 ));print((rH(v) + ( 5 )))))
+SymTable:
+v --> 39 int
+Out:
+FileTable
+Heap
+39
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 39
+ExeStack:
+print(rH(v))
+(wH(v,( 30 ));print((rH(v) + ( 5 ))))
+SymTable:
+v --> 39 int
+Out:
+FileTable
+Heap
+39
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 39
+ExeStack:
+(wH(v,( 30 ));print((rH(v) + ( 5 ))))
+SymTable:
+v --> 39 int
+Out:
+20
+FileTable
+Heap
+39
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 39
+ExeStack:
+wH(v,( 30 ))
+print((rH(v) + ( 5 )))
+SymTable:
+v --> 39 int
+Out:
+20
+FileTable
+Heap
+39
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 39
+ExeStack:
+print((rH(v) + ( 5 )))
+SymTable:
+v --> 39 int
+Out:
+20
+FileTable
+Heap
+39
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 39
+ExeStack:
+SymTable:
+v --> 39 int
+Out:
+20
+35
+FileTable
+Heap
+39
+. . . . . . . . . . . . . . . . . . . . . . . .

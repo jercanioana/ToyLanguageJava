@@ -1,0 +1,246 @@
+ID: 57
+ExeStack:
+(new(v,( 20 ));(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 )))))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 57
+ExeStack:
+(new(v,( 20 ));(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 )))))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 57
+ExeStack:
+(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 ))))))
+SymTable:
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 57
+ExeStack:
+(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 ))))))
+SymTable:
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 57
+ExeStack:
+Ref(Ref(int)) a
+(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 )))))
+SymTable:
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 57
+ExeStack:
+Ref(Ref(int)) a
+(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 )))))
+SymTable:
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 57
+ExeStack:
+new(a,v)
+(print(rH(v));print((rH(rH(a)) + ( 5 ))))
+SymTable:
+a --> 0 Ref(int)
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 57
+ExeStack:
+new(a,v)
+(print(rH(v));print((rH(rH(a)) + ( 5 ))))
+SymTable:
+a --> 0 Ref(int)
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 57
+ExeStack:
+print(rH(v))
+print((rH(rH(a)) + ( 5 )))
+SymTable:
+a --> 2 Ref(int)
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+2
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 57
+ExeStack:
+print(rH(v))
+print((rH(rH(a)) + ( 5 )))
+SymTable:
+a --> 2 Ref(int)
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+2
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 57
+ExeStack:
+SymTable:
+a --> 2 Ref(int)
+v --> 1 int
+Out:
+20
+25
+FileTable
+Heap
+1
+2
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 57
+ExeStack:
+SymTable:
+a --> 2 Ref(int)
+v --> 1 int
+Out:
+20
+25
+FileTable
+Heap
+1
+2
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 37
+ExeStack:
+(new(v,( 20 ));(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 )))))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 37
+ExeStack:
+(new(v,( 20 ));(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 )))))))
+SymTable:
+v --> 0 int
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 37
+ExeStack:
+(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 ))))))
+SymTable:
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 37
+ExeStack:
+(Ref(Ref(int)) a;(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 ))))))
+SymTable:
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 37
+ExeStack:
+Ref(Ref(int)) a
+(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 )))))
+SymTable:
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 37
+ExeStack:
+Ref(Ref(int)) a
+(new(a,v);(print(rH(v));print((rH(rH(a)) + ( 5 )))))
+SymTable:
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 37
+ExeStack:
+new(a,v)
+(print(rH(v));print((rH(rH(a)) + ( 5 ))))
+SymTable:
+a --> 0 Ref(int)
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 37
+ExeStack:
+new(a,v)
+(print(rH(v));print((rH(rH(a)) + ( 5 ))))
+SymTable:
+a --> 0 Ref(int)
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 37
+ExeStack:
+print(rH(v))
+print((rH(rH(a)) + ( 5 )))
+SymTable:
+a --> 2 Ref(int)
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+2
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 37
+ExeStack:
+print(rH(v))
+print((rH(rH(a)) + ( 5 )))
+SymTable:
+a --> 2 Ref(int)
+v --> 1 int
+Out:
+FileTable
+Heap
+1
+2
+. . . . . . . . . . . . . . . . . . . . . . . .

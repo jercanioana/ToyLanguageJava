@@ -1,0 +1,4182 @@
+ID: 20
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+22
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+22
+32
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+22
+32
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 61
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 61
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 61
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 60
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 61
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 61
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 61
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 61
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+32
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 61
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+32
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+32
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+32
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 42
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 42
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 42
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 42
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 42
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 42
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 42
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+32
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 42
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+32
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+32
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+a --> 1 int
+v --> 32
+Out:
+10
+30
+32
+30
+FileTable
+Heap
+1
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(Ref(int) a;((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+Ref(int) a
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(new(a,( 22 ));(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a)))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+new(a,( 22 ))
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 0 int
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) );(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( (wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a))))) )
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(wH(a,( 30 ));((v=( 32 ));(print(v);print(rH(a)))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+wH(a,( 30 ))
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=( 32 ));(print(v);print(rH(a))))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=( 32 ))
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 10
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(print(v);print(rH(a)))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(rH(a))
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+a --> 20 int
+v --> 32
+Out:
+10
+30
+32
+30
+FileTable
+Heap
+20
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+((v=( 10 ));(fork( ((v=(v - ( 10 )));((v=(v - ( 10 )));print(v))) );(sleep(10);print((v * ( 10 ))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(fork( ((v=(v - ( 10 )));((v=(v - ( 10 )));print(v))) );(sleep(10);print((v * ( 10 ))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(fork( ((v=(v - ( 10 )));((v=(v - ( 10 )));print(v))) );(sleep(10);print((v * ( 10 )))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( ((v=(v - ( 10 )));((v=(v - ( 10 )));print(v))) );(sleep(10);print((v * ( 10 )))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( ((v=(v - ( 10 )));((v=(v - ( 10 )));print(v))) )
+(sleep(10);print((v * ( 10 ))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(sleep(10);print((v * ( 10 ))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=(v - ( 10 )));((v=(v - ( 10 )));print(v)))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(10)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=(v - ( 10 )))
+((v=(v - ( 10 )));print(v))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(9)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=(v - ( 10 )));print(v))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(8)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=(v - ( 10 )))
+print(v)
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(7)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+SymTable:
+v --> -10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(6)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+-10
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+v --> -10
+Out:
+-10
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(5)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+-10
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(4)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+-10
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(3)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+-10
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(2)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+-10
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(1)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+-10
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(0)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+-10
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+-10
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+v --> 10
+Out:
+-10
+100
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+int v
+((v=( 10 ));(fork( ((v=(v - ( 10 )));((v=(v - ( 10 )));print(v))) );(sleep(10);print((v * ( 10 ))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+((v=( 10 ));(fork( ((v=(v - ( 10 )));((v=(v - ( 10 )));print(v))) );(sleep(10);print((v * ( 10 ))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+(v=( 10 ))
+(fork( ((v=(v - ( 10 )));((v=(v - ( 10 )));print(v))) );(sleep(10);print((v * ( 10 )))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+(fork( ((v=(v - ( 10 )));((v=(v - ( 10 )));print(v))) );(sleep(10);print((v * ( 10 )))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+fork( ((v=(v - ( 10 )));((v=(v - ( 10 )));print(v))) )
+(sleep(10);print((v * ( 10 ))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+(sleep(10);print((v * ( 10 ))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 42
+ExeStack:
+((v=(v - ( 10 )));((v=(v - ( 10 )));print(v)))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+sleep(10)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 42
+ExeStack:
+(v=(v - ( 10 )))
+((v=(v - ( 10 )));print(v))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 41
+ExeStack:
+sleep(9)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 42
+ExeStack:
+((v=(v - ( 10 )));print(v))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+((v=( 10 ));(fork( ((v=(v - ( 1 )));((v=(v - ( 1 )));print(v))) );(sleep(10);print((v * ( 10 ))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(fork( ((v=(v - ( 1 )));((v=(v - ( 1 )));print(v))) );(sleep(10);print((v * ( 10 ))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(fork( ((v=(v - ( 1 )));((v=(v - ( 1 )));print(v))) );(sleep(10);print((v * ( 10 )))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( ((v=(v - ( 1 )));((v=(v - ( 1 )));print(v))) );(sleep(10);print((v * ( 10 )))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( ((v=(v - ( 1 )));((v=(v - ( 1 )));print(v))) )
+(sleep(10);print((v * ( 10 ))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(sleep(10);print((v * ( 10 ))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=(v - ( 1 )));((v=(v - ( 1 )));print(v)))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(10)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=(v - ( 1 )))
+((v=(v - ( 1 )));print(v))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(9)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=(v - ( 1 )));print(v))
+SymTable:
+v --> 9
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(8)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=(v - ( 1 )))
+print(v)
+SymTable:
+v --> 9
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(7)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+SymTable:
+v --> 8
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(6)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+v --> 8
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(5)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(4)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(3)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(2)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(1)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(0)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+v --> 10
+Out:
+8
+100
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+int v
+((v=( 10 ));(fork( ((v=(v - ( 1 )));((v=(v - ( 1 )));print(v))) );(sleep(10);print((v * ( 10 ))))))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+((v=( 10 ));(fork( ((v=(v - ( 1 )));((v=(v - ( 1 )));print(v))) );(sleep(10);print((v * ( 10 ))))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(v=( 10 ))
+(fork( ((v=(v - ( 1 )));((v=(v - ( 1 )));print(v))) );(sleep(10);print((v * ( 10 )))))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(fork( ((v=(v - ( 1 )));((v=(v - ( 1 )));print(v))) );(sleep(10);print((v * ( 10 )))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+fork( ((v=(v - ( 1 )));((v=(v - ( 1 )));print(v))) )
+(sleep(10);print((v * ( 10 ))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+(sleep(10);print((v * ( 10 ))))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=(v - ( 1 )));((v=(v - ( 1 )));print(v)))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(10)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=(v - ( 1 )))
+((v=(v - ( 1 )));print(v))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(9)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+((v=(v - ( 1 )));print(v))
+SymTable:
+v --> 9
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(8)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+(v=(v - ( 1 )))
+print(v)
+SymTable:
+v --> 9
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(7)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+print(v)
+SymTable:
+v --> 8
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(6)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 21
+ExeStack:
+SymTable:
+v --> 8
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(5)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(4)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(3)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(2)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(1)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+sleep(0)
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+print((v * ( 10 )))
+SymTable:
+v --> 10
+Out:
+8
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 20
+ExeStack:
+SymTable:
+v --> 10
+Out:
+8
+100
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .

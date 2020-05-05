@@ -1,0 +1,312 @@
+ID: 11
+ExeStack:
+((v=( 2 ));print(v))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+((v=( 2 ));print(v))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+print(v)
+SymTable:
+v --> 2
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+print(v)
+SymTable:
+v --> 2
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+SymTable:
+v --> 2
+Out:
+2
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+SymTable:
+v --> 2
+Out:
+2
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+int v
+((v=( 2 ));print(v))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+int v
+((v=( 2 ));print(v))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+(v=( 2 ))
+print(v)
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+(v=( 2 ))
+print(v)
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+SymTable:
+v --> 2
+Out:
+2
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+SymTable:
+v --> 2
+Out:
+2
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+((v=( 2 ));print(v))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+((v=( 2 ));print(v))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+(v=( 2 ))
+print(v)
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+(v=( 2 ))
+print(v)
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+int v
+((v=( 2 ));print(v))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+int v
+((v=( 2 ));print(v))
+SymTable:
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+(v=( 2 ))
+print(v)
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+(v=( 2 ))
+print(v)
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+SymTable:
+v --> 2
+Out:
+0
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 11
+ExeStack:
+SymTable:
+v --> 2
+Out:
+0
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+((v=( 2 ));print(v))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+((v=( 2 ));print(v))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+print(v)
+SymTable:
+v --> 2
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+print(v)
+SymTable:
+v --> 2
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+SymTable:
+v --> 2
+Out:
+2
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+SymTable:
+v --> 2
+Out:
+2
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+((v=( 2 ));print(v))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+((v=( 2 ));print(v))
+SymTable:
+v --> 0
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+print(v)
+SymTable:
+v --> 2
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+print(v)
+SymTable:
+v --> 2
+Out:
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+SymTable:
+v --> 2
+Out:
+2
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .
+ID: 31
+ExeStack:
+SymTable:
+v --> 2
+Out:
+2
+FileTable
+Heap
+. . . . . . . . . . . . . . . . . . . . . . . .

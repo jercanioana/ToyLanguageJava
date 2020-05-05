@@ -1,0 +1,180 @@
+ID: 10
+ExeStack:
+(bool a;(int v;((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v)))))
+SymTable:
+Out:
+FileTable
+Heap
+ID: 11
+ExeStack:
+bool a
+(int v;((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))))
+SymTable:
+Out:
+FileTable
+Heap
+ID: 12
+ExeStack:
+bool a
+(int v;((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))))
+SymTable:
+Out:
+FileTable
+Heap
+ID: 13
+ExeStack:
+(int v;((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))))
+SymTable:
+a --> (false)
+Out:
+FileTable
+Heap
+ID: 14
+ExeStack:
+(int v;((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))))
+SymTable:
+a --> (false)
+Out:
+FileTable
+Heap
+ID: 15
+ExeStack:
+int v
+((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v)))
+SymTable:
+a --> (false)
+Out:
+FileTable
+Heap
+ID: 16
+ExeStack:
+int v
+((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v)))
+SymTable:
+a --> (false)
+Out:
+FileTable
+Heap
+ID: 17
+ExeStack:
+((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v)))
+SymTable:
+a --> (false)
+v --> 0
+Out:
+FileTable
+Heap
+ID: 18
+ExeStack:
+((a=( (true) ));(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v)))
+SymTable:
+a --> (false)
+v --> 0
+Out:
+FileTable
+Heap
+ID: 19
+ExeStack:
+(a=( (true) ))
+(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))
+SymTable:
+a --> (false)
+v --> 0
+Out:
+FileTable
+Heap
+ID: 20
+ExeStack:
+(a=( (true) ))
+(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))
+SymTable:
+a --> (false)
+v --> 0
+Out:
+FileTable
+Heap
+ID: 21
+ExeStack:
+(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))
+SymTable:
+a --> (true)
+v --> 0
+Out:
+FileTable
+Heap
+ID: 22
+ExeStack:
+(IF(a) THEN((v=( 2 )))ELSE((v=( 3 )));print(v))
+SymTable:
+a --> (true)
+v --> 0
+Out:
+FileTable
+Heap
+ID: 23
+ExeStack:
+IF(a) THEN((v=( 2 )))ELSE((v=( 3 )))
+print(v)
+SymTable:
+a --> (true)
+v --> 0
+Out:
+FileTable
+Heap
+ID: 24
+ExeStack:
+IF(a) THEN((v=( 2 )))ELSE((v=( 3 )))
+print(v)
+SymTable:
+a --> (true)
+v --> 0
+Out:
+FileTable
+Heap
+ID: 25
+ExeStack:
+(v=( 2 ))
+print(v)
+SymTable:
+a --> (true)
+v --> 0
+Out:
+FileTable
+Heap
+ID: 26
+ExeStack:
+(v=( 2 ))
+print(v)
+SymTable:
+a --> (true)
+v --> 0
+Out:
+FileTable
+Heap
+ID: 27
+ExeStack:
+print(v)
+SymTable:
+a --> (true)
+v --> 2
+Out:
+FileTable
+Heap
+ID: 28
+ExeStack:
+print(v)
+SymTable:
+a --> (true)
+v --> 2
+Out:
+FileTable
+Heap
+ID: 29
+ExeStack:
+SymTable:
+a --> (true)
+v --> 2
+Out:
+2
+FileTable
+Heap
